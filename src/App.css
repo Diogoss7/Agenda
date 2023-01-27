@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+  padding: 2%;
+  padding-top: 5%;
+}
+
+.container {
+  background: rgb(241, 241, 241);
+  padding: 2rem;
+  margin-top: 5%;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  color: black;
+  margin-bottom: 4%;
+}
+
+.selecionarD {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mostrarD {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerCard {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.botaoADtarefa {
+  margin: 10px;
+
+}
+
+.botaoEnviar {
+  margin: 10px;
+
+}
+
+.botaoadd {
+  width: 52%;
+  display: flex;
+  margin-left: 23%;
+}
+
+#cronogramaSemana {
+  color: black;
+  margin: 3%;
+}
+
+.cardForm {
+  border-radius: 2rem;
+  background: red;
+}
+
+.CardInfo {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttonGuardar {
+  margin:3% ;
+}
+
+.buttonFechar {
+  margin-top: 3%;
+}
+.CardDia{
+  height: 150px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.botaoVerMusicas{
+  margin-top: 10%;
+}
+  .topoCard{
+    display: flex;
+    justify-content:flex-end;
+    padding: 8px;
+  }
+  .buttonGuardarCard{
+    margin-left: 30px;
+  }
